@@ -19,44 +19,44 @@ app.use('/static',express.static('static'))
 app.get('/', (req, res)=>{
     //const params = { }
     // res.status(200).sendFile(path.join("home.html");
-    res.sendFile(path.join(__dirname ,'model.html'));
+    res.sendFile(path.join(__dirname ,'./model.html'));
 })
 
 app.get('/vehicles', (req, res)=>{ 
     // const params = { }
     // res.status(200).end(aboutus);
-    res.sendFile(path.join(__dirname ,'vehicles.html'));
+    res.sendFile(path.join(__dirname ,'./vehicles.html'));
 })
 
 app.get('/energy', (req, res)=>{ 
     // const params = { }
     // res.status(200).end(aboutus);
-    res.sendFile(path.join(__dirname ,'energy.html'));
+    res.sendFile(path.join(__dirname ,'./energy.html'));
 })
 app.get('/charging', (req, res)=>{ 
     // const params = { }
     // res.status(200).end(aboutus);
-    res.sendFile(path.join(__dirname ,'charging.html'));
+    res.sendFile(path.join(__dirname ,'./charging.html'));
 })
 app.get('/order-mod3', (req, res)=>{ 
     // const params = { }
     // res.status(200).end(aboutus);
-    res.sendFile(path.join(__dirname,'order-mod3.html'));
+    res.sendFile(path.join(__dirname,'./order-mod3.html'));
 })
 app.get('/order-mods', (req, res)=>{ 
     // const params = { }
     // res.status(200).end(aboutus);
-    res.sendFile(path.join(__dirname,'order-mods.html'));
+    res.sendFile(path.join(__dirname,'./order-mods.html'));
 })
 app.get('/order-modx', (req, res)=>{ 
     // const params = { }
     // res.status(200).end(aboutus);
-    res.sendFile(path.join(__dirname,'order-modx.html'));
+    res.sendFile(path.join(__dirname,'./order-modx.html'));
 })
 app.get('/order-mody', (req, res)=>{ 
     // const params = { }
     // res.status(200).end(aboutus);
-    res.sendFile(path.join(__dirname ,'order-mody.html'));
+    res.sendFile(path.join(__dirname ,'./order-mody.html'));
 })
 
 
