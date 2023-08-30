@@ -19,7 +19,7 @@ app.use('/static',express.static('static'))
 app.get('/', (req, res)=>{
     //const params = { }
     // res.status(200).sendFile(path.join("home.html");
-    res.sendFile(path.join(__dirname ,'./model.html'));
+    res.sendFile(path.join(__dirname ,'../bhargav','ev','views','model.html'));
 })
 
 app.get('/vehicles', (req, res)=>{ 
