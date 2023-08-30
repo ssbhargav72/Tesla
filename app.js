@@ -2,9 +2,8 @@ const express = require("express");
 const path = require("path");
 const app = express();
 const fs=require('fs');
-const mongoose = require("mongoose");
 const bodyparser = require("body-parser", { UserNewUrlparser: true });
-mongoose.connect("mongodb://127.0.0.1/Tesla"); // Tesla will be the database name // changed to ip adress from localhost because of updatee
+ // Tesla will be the database name // changed to ip adress from localhost because of updatee
 const port = 40;
 
 
