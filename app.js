@@ -4,6 +4,7 @@ const app = express();
 const fs=require('fs');
 const bodyparser = require("body-parser", { UserNewUrlparser: true });
  // Tesla will be the database name // changed to ip adress from localhost because of updatee
+const host='127.0.0.1';
 const port = 40;
 
 
